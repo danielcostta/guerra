@@ -3,17 +3,17 @@ Guerra
 
 #### Projeto sobre design patterns
 
-## inglobao
+## Instruções
 
 Clone o projeto para sua m�quina:
 
 ```bash
-$ git clone <LINK DO REPOSIT�RIO>
+$ git clone https://github.com/danielcostta/guerra.git
 ```
 
 - Abra o projeto no NetBeans.
 
-## Est�ria
+## Descrição
 
 - Esse projeto se trata de um cenário de guerra, onde temos um Soldado, que pode mudar estratégia de ataque, mudar seu estado, ser notificado quando se machucar e prestar socorro. Aqui encontramos 4 Patterns, Strategy, Template, State e Observer.
 
@@ -38,6 +38,6 @@ $ git clone <LINK DO REPOSIT�RIO>
 
 - Esse pacote tem como responsabilidade notificar o Soldado Combatente quando se machucar.
 
-## Conclus�o
+## Conclusão
 
 - Esse projeto é um projeto academico que tem por objetivo a pratica com design patterns.
