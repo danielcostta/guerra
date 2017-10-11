@@ -5,7 +5,7 @@ Guerra
 
 ## Instruções
 
-Clone o projeto para sua m�quina:
+Clone o projeto para sua máquina:
 
 ```bash
 $ git clone https://github.com/danielcostta/guerra.git
