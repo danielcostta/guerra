@@ -1,7 +1,7 @@
-Guerra
+Projeto Guerra
 =====================
 
-#### Projeto sobre design patterns
+#### Projeto sobre Design Patterns
 
 ## Instruções
 
@@ -15,29 +15,27 @@ $ git clone https://github.com/danielcostta/guerra.git
 
 ## Descrição
 
-- Esse projeto se trata de um cenário de guerra, onde temos um Soldado, que pode mudar estratégia de ataque, mudar seu estado, ser notificado quando se machucar e prestar socorro. Aqui encontramos 4 Patterns, Strategy, Template, State e Observer.
+- Esse projeto se trata de um cenário de guerra, onde temos um Soldado, que pode mudar estratégia de ataque, mudar seu estado, ser notificado quando se machucar e prestar socorro. Aqui encontramos 4 Patterns: Strategy, Template, State e Observer.
 
 ## Sobre o projeto
-- Explicação das funções de cada pattern
+- Explicação da aplicação dos design patterns.
 	
-#### Pattern Strategy, pacote "Guerra.Strategy"
+#### Pacote "guerra.EstadoSoldado"
 
-- Esse pacote tem como responsabilidade mudar o tipo de ataque do Soldado Combatente.
+- Onde ficam as classes de estado do "Soldado", que podem ser "Cansado" e "Normal" e que implementam a interface "Estado", aplicando o pattern "State".
 
-#### Pattern Template, pacote "Guerra.Template"
+#### Pacote "guerra.Frente"
 
-- Esse pacote tem como responsabilidade controlar os primeiros socorros.
+- Onde ficam as classes de principais, a classe abstrata "Soldado", suas sub-classes "Combatente" e "Suporte", aplicando o pattern "Template" e a classe main "Guerra".
 
+#### Pacote "guerra.JeitoDeCombate"
 
-#### Pattern State, pacote "Guerra.State"
+- Onde ficam as classes de jeito de combate do soldado que podem ser "ArmaBranca" ou "ArmaDeFogo" e que implementam a interface "JeitoDeCombate", aplicando o pattern Strategy.
 
-- Esse pacote tem como responsabilidade mudar o estado do Soldado Combatente.
+#### Pacote "guerra.UnidadeMedica"
 
-
-#### Pattern Observer, pacote "Guerra.Observer"
-
-- Esse pacote tem como responsabilidade notificar o Soldado Combatente quando se machucar.
+- Onde ficam as classes "Unidade" e "UnidadeMedica" onde a classe "UnidadeMedica" implementa a interface "Unidade", aplicando o pattern "Observer".
 
 ## Conclusão
 
-- Esse projeto é um projeto academico que tem por objetivo a pratica com design patterns.
+- Esse projeto é um projeto acadêmico que tem por objetivo prática com Design Patterns.
